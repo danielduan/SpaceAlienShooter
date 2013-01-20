@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="28875DanDuan.SpaceAlienShooter" Version="1.0.1.0" Publisher="CN=FDAD2CFB-44D8-4CC9-8BE8-3BB50BA3A3A0" />
+  <Properties>
+    <DisplayName>Space Alien Shooter</DisplayName>
+    <Description>Do Save As</Description>
+    <PublisherDisplayName>danielduan</PublisherDisplayName>
+    <Logo>fighter icon 50.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.0</OSMinVersion>
+    <OSMaxVersionTested>6.2.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="index.html">
+      <VisualElements DisplayName="Space Alien Shooter" Logo="fighter square 150.png" SmallLogo="fighter square 30.png" Description="Shoot aliens from a space ship" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="fighter splash.png" BackgroundColor="#000000" />
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>
